@@ -1,0 +1,66 @@
+{
+  "id" : "https://Melodiedoumy.github.io/Dunhuangmanuscripts/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in Melodiedoumy/Dunhuangmanuscripts project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1920,
+    "id" : "https://Melodiedoumy.github.io/Dunhuangmanuscripts/images/191901010.78overallview/canvas/",
+    "label" : {
+      "none" : [ "191901010.78overallview" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://Melodiedoumy.github.io/Dunhuangmanuscripts/images/191901010.78overallview/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://Melodiedoumy.github.io/Dunhuangmanuscripts/images/191901010.78overallview/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 60,
+              "height" : 34
+            }, {
+              "width" : 120,
+              "height" : 68
+            }, {
+              "width" : 240,
+              "height" : 135
+            }, {
+              "width" : 480,
+              "height" : 270
+            }, {
+              "width" : 960,
+              "height" : 540
+            }, {
+              "width" : 1920,
+              "height" : 1080
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1920,
+            "@id" : "https://Melodiedoumy.github.io/Dunhuangmanuscripts/images/191901010.78overallview",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1080
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1920,
+          "id" : "https://Melodiedoumy.github.io/Dunhuangmanuscripts/images/191901010.78overallview/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 1080
+        },
+        "target" : "https://Melodiedoumy.github.io/Dunhuangmanuscripts/images/191901010.78overallview/canvas/"
+      } ]
+    } ],
+    "height" : 1080
+  } ]
+}
